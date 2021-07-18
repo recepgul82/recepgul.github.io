@@ -15,9 +15,10 @@ xhr.onload = function() {
     }
 
     document.getElementById("content").innerHTML = newContent;
-    
+
     }
 };
 
 xhr.open("GET", "data/data.json", true);
 xhr.send(null);
+
