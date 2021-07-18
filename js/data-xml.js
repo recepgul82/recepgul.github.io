@@ -13,6 +13,7 @@ xhr.onload = function() {
             image = document.createElement("img");
             image.setAttribute("src", getNodeValue(events[i], "map"));
             image.appendChild(document.createTextNode(getNodeValue(events[i], "map")));
+            container.appendChild(image);
 
             location = document.createElement("p");
             city = document.createElement("b");
